@@ -1,11 +1,5 @@
-===============================
-       DRAGON'S OATH
-===============================
-
-Project Type:
-JavaFX 2D Mini Game
-
-Description:
+# The Dragon's Oath
+# JavaFX 2D Mini Game
 Dragon's Oath is a simple JavaFX-based
 2D obstacle avoidance game.
 
@@ -16,12 +10,12 @@ while different obstacles appear.
 The player can press SPACE to make the
 dragon jump and avoid obstacles.
 
-Obstacles:
+**Obstacles:**
 - Rock
 - Tree
 - Fire
 
-Game Rules:
+# Game Rules:
 1. The player starts the game by entering
    their name.
 2. The dragon continuously runs.
@@ -36,13 +30,13 @@ Game Rules:
 8. The player's result is saved in the
    leaderboard.
 
-Technologies Used:
+# Technologies Used:
 - Java
 - JavaFX
 - Object-Oriented Programming
 - File I/O
 
-Java Concepts Used:
+# Java Concepts Used:
 - Data Types
 - Operators
 - Expressions
@@ -60,45 +54,45 @@ Java Concepts Used:
 - File I/O
 - JavaFX GUI
 
-Main Classes:
-Main.java
+# Main Classes:
+- **Main.java**  
     Handles the main menu and application
     startup.
 
-Game.java
+- **Game.java**  
     Handles the main game logic, dragon
     movement, obstacles, collision and score.
 
-Player.java
+- **Player.java**<br>
     Stores player information and score.
 
-Character.java
+- **Character.java**<br>
     Abstract parent class for characters.
 
-Dragon.java
+- **Dragon.java**<br>
     Represents the dragon and implements
     jumping functionality.
 
-Jumpable.java
+- **Jumpable.java**<br>
     Interface for jump functionality.
 
-Obstacle.java
+- **Obstacle.java**<br>
     Abstract parent class for obstacles.
 
-Rock.java
+- **Rock.java**<br>
     Represents the rock obstacle.
 
-Tree.java
+- **Tree.java**<br>
     Represents the tree obstacle.
 
-Fire.java
+- **Fire.java**<br>
     Represents the fire obstacle.
 
-Leaderboard.java
+- **Leaderboard.java**<br>
     Handles saving and reading player
     results using File I/O.
 
-How to Run:
+# How to Run:
 1. Install JDK.
 2. Install JavaFX SDK.
 3. Open the project in VS Code.
@@ -107,34 +101,15 @@ How to Run:
    module path.
 6. Run the Main class.
 
-Game Controls:
+**Game Controls:**
 SPACE = Jump
 
-Winning Condition:
+**Winning Condition:**
 Reach a score of 50.
 
-Losing Condition:
+**Losing Condition:**
 Hit an obstacle.
 
-===============================
-
-The Dragon's Oath_Original
-│
-├── src
-│   ├── Main.java
-│   ├── Game.java
-│   ├── Player.java
-│   ├── Dragon.java
-│   ├── Character.java
-│   ├── Jumpable.java
-│   ├── Obstacle.java
-│   ├── Rock.java
-│   ├── Tree.java
-│   ├── Fire.java
-│   └── Leaderboard.java
-│
-├── out
-│
-├── leaderboard.txt
-│
-└── README.txt
+# Author<br>
+**Orpita Das Sreya**<br>
+Undergrad Student at NORTH SOUTH UNIVERSITY 
